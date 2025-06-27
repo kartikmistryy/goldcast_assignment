@@ -605,13 +605,6 @@ export default function Home() {
           Hybrid event platform FAQs
         </h2>
 
-        <motion.div onClick={() => setActiveFaq(1)}>
-          <h1 className="text-white text-3xl font-medium">Kartik Mistry</h1>
-          {activeFaq == 1 && (
-            <p className="text-white">Hello kartik this side</p>
-          )}
-        </motion.div>
-
         <motion.div
           id="faq"
           className="w-full h-full flex flex-col gap-5 mt-10 max-w-[1000px] mx-auto text-white px-5 z-50 relative"
